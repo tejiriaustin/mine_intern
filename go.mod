@@ -1,3 +1,3 @@
-module ./tejiriaustin/mine_intern
+module mine_intern
 
 go 1.13

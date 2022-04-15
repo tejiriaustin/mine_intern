@@ -1,6 +1,8 @@
 package main
 
-import "./rest/server"
+import (
+	"server"
+)
 
 func main() {
 	server.Run()
