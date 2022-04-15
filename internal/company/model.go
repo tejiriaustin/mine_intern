@@ -8,7 +8,9 @@ type Company struct {
 	CompanyName        string            `json:"company_name"`
 	companyLocation    Location.Location `json:"company_location"`
 	CompanyDescription string            `json:"company_description"`
+	CompanyEmail       string            `json:"company_email"`
 	Field              *Field            `json:"field"`
+	likes              int64             `json:"likes"`
 }
 
 type Field string

@@ -4,6 +4,12 @@ type CompanyRepo struct {
 }
 
 type ICompanyRepo interface {
-	GetCompany()
+	GetCompanies()
+	GetCompanyByID()
 	RateCompany()
+	GetCompanyByLocation()
+}
+
+func NewCompanyRepo() ICompanyRepo {
+	return &CompanyRepo{}
 }

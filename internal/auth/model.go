@@ -11,4 +11,10 @@ type User struct {
 	Profession          string             `json:"profession"`
 	PersonalDescription string             `json:"personal_description"`
 	Location            *Location.Location `json:"location"`
+	Password            string             `json:"password"`
+	PhoneNumber         string             `json:"phoneNumber"`
+	Email               string             `json:"email"`
+	Gender              *Gender            `json:"gender"`
 }
+
+type Gender string
