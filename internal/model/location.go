@@ -1,4 +1,4 @@
-package Location
+package model
 
 type Location struct {
 	LocationID int  `json:"location_id"`

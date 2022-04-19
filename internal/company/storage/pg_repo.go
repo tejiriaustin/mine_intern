@@ -1,4 +1,4 @@
-package repository
+package storage
 
 func (c *CompanyRepo) GetCompanies() {
 
